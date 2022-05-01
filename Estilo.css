@@ -1,366 +1,57 @@
-
-
-
-
-*{
-    margin: 0%;
-    padding: 0%;
-    box-sizing: border-box;
-}
-header{
-    
-    height: 100px;
-    width: 100%;
-   background-color: black;
+.fondo-negro{
+    background-image: url(./Imagenes/fondo7.jpg);
+    background-position: center;
     
     
-
-   
-    
-
-
-    
+            
+        
 }
 
-
-    
-
-
-header h1{
-    font-size: 40px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    color: wheat;
-    text-transform: uppercase;
-    text-align: center;
-    
-    
-
-    
-    
-    
-    
+.navbar{
+    box-shadow: 4px 4px 7px #999;
 }
 
-
-
-
-
-
-
-.subtitulo{
-    font-size: 15px;
-    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    color: rgb(218, 217, 216);
-    text-transform: uppercase;
-    text-align: center;
-    margin-top: 2px;
-
+.nav-link{
+    color: white;
+    margin-top: 60px;
 }
 
-
-
-
-
-
-.left{
-    float: left;
-    width: 100px;
-    height: 100px;
-    margin-left: 25px;
-    border-radius: 20px;
-    
-    
-    
+.nav-link:hover{
+    color: gray;
 }
 
+.SLOGAN{
+    font-family: 'Square Peg', cursive;
+    margin: 20px;
+     color: rgb(177, 158, 158); 
+    }
+    
 
 
 
-
-.left :hover{
-    -webkit-transform: rotateY(180deg);
--webkit-transform-style: preserve-3d;
-transform: rotateY(180deg);
-transform-style: preserve-3d;
+.presentacion{
+    margin-top: 65px;
 }
 
-header ul li{
-    list-style: none;
-    display:inline;
-   margin-top: 5% ;
-    
-
-
-    text-transform: uppercase;
-    
-    
-
-    
-    
-    
-    
-}
-
-header ul li a {
-    color: rgb(143, 152, 152);
-    font-size: 12px;
-    text-decoration: none;
-    padding: 5px;
-    
-    
-    
-}
-
-
-header a:hover{
-    color: black;
-}
-
-
-
-
-.navegador {
-    float:left;
-    margin-left: 65%;
-    
-    
-
-}
-
-
-
-
-
-
-
-main{
-    min-height: 250vh;
-    width: auto;
-    background-image: url(imagenes/fondo7.jpg);
-
-
-}
-
-
-
-section{
-    min-height: 800px;
-    width: 800px;
-    margin-left: 20% ;
-    display: grid;
-    padding: 10px;
-    gap: 40px;
-    
-}
-
-
-
-
-.fotos{
-    background-color: aqua;
-    border: 2px solid gray;
+.hangar02{
     border-radius: 5px;
     box-shadow: 0 0 7px rgb(247, 247, 247);
+    height: 100%;
 
     
+
 }
 
-.fotos:hover{
+.hangar02:hover{
     -webkit-transform:scale(1.3);transform:scale(1.3);
     overflow:hidden;
 }
 
-
-@media only screen and (min-width:320px){
-    
-  
-        
-        
-        
-    
-}
-
-@media only screen and (min-width:480px) {
-   .seccion{
-       grid-template-columns: 1fr 1fr;
-       width: 60%;
-       
-      
-       
-       
-   }
-
-
-   
-}
-
-
-@media only screen and (min-width:1024px)
-{
-    .f1{ grid-column: 1/8;
-        grid-row: 2/9;
-
-    }
-
-    .f2{
-        grid-column:3/8 ;
-        grid-row:18/23 ;
-    }
-
-    .f3{
-        grid-column:2/3;
-        grid-row:9/13;
-    }
-
-    .f4{
-        grid-column:1 ;
-        grid-row: 9/17;
-    }
-
-    .f5{
-        grid-column:2/3 ;
-        grid-row: 13/21;
-    }
-
-    .f6{
-        grid-column:6/7;
-        grid-row:6/8 ;
-    }
-
-    .f8{
-        grid-column: 3/8;
-        grid-row: 9/15;
-    }
-
-    .f7{
-        grid-column:3/4 ;
-        grid-row: 11/12;
-    }
-    
-    .f9{
-        grid-column: 1/2;
-        grid-row: 17/22;
-    }
-
-    .f10{
-        grid-column: 3/8;
-        grid-row:15/18 ;
-    }
-
-    
-    
-
-
-
-
+.textoinicio{
+    font-family: 'Bebas Neue', cursive;
+    color: aliceblue;
 
 }
-
-
-
-
-
-
-
-
-@media only screen and (min-width:1024px){
-
-    .f1{
-        
-        background-image: url(imagenes/el\ hangarportada.jpg);
-        background-position: center;
-        background-size: cover
-        }
-        
-        
-        
-        
-        .f2{
-            
-            background-image: url(imagenes/hangarinicio.jpg);
-            background-position: center;
-            background-size: cover;
-        
-        }
-        
-        .f3{ 
-           
-            background-image: url(imagenes/hangarinicio4.jpg);
-            background-position: center;
-            background-size: cover;
-        
-        }
-            
-        
-        .f4{
-            
-            background-image: url(imagenes/proyectohangar.png);
-            background-position: center;
-            background-size: cover;
-        }
-        
-        .f5{
-            
-            background-image: url(imagenes/hangarinicio3.png);
-            background-position: center;
-            background-size: cover;
-        
-        }
-        
-        .f6{
-            background-image: url(imagenes/hangarinicio\ 2.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-
-        .f7{
-            background-image: url(imagenes/el\ hangar00.jpg);
-            background-position: center;
-            background-size: cover;
-
-        }
-
-        .f8{
-            background-image: url(imagenes/el\ hangar002.png);
-            background-position: center;
-            background-size: cover;
-
-        }
-
-        .f9{
-            background-image: url(imagenes/el\ hangar\ 001.jpg);
-            background-position: center;
-            background-size: cover;
-
-        }
-
-        .f10{
-            background-image: url(imagenes/Hangarlogo.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-        .f11{
-            background-image: url(imagenes/hangar02.jpg);
-            background-position: center;
-            background-size: cover;
-        }
-
-}
-
-
-    
-
-
-
-    
-
-
-
-
-
-
 
 
 
@@ -810,6 +501,22 @@ table{
 .columna1 h1{
     color: wheat;
     text-align: center;
+
+    
+
+
+
+    
+
+
+
+
+
+
+
+
+
+
 }
 
 
