@@ -319,6 +319,7 @@ height: $alto +50;
    object-fit: cover;
    
    max-width: 140vh;
+   margin-left: 8%;
   
   
 
@@ -361,12 +362,13 @@ height: $alto +50;
 
 //SECCION CONTACTO//
 
-.contacto{
-    border: solid $primario;
-    margin-top: $flaco +10;
-}
+
+
+   
 .contacto-forma{
     padding: 5px;
+   
+    
 }
 
 .icono{
